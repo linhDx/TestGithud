@@ -1,0 +1,172 @@
+{
+	"id": "065b6578-e95a-63fa-98b7-c840e8fd0dea",
+	"name": "API",
+	"description": "",
+	"order": [
+		"8b21c879-42eb-205e-0815-b995cc280015",
+		"6cb45726-08a3-75ed-c588-96a533028f15",
+		"e01ae4b9-3d4a-bb31-ba44-9c1d508c4e80"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1501560100130,
+	"owner": "1106455",
+	"public": false,
+	"requests": [
+		{
+			"id": "6cb45726-08a3-75ed-c588-96a533028f15",
+			"headers": "X-DEVICE-KIND: 09\nX-HALL-ID: 1\nX-DEVICE-ID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-DEVICE-KIND",
+					"value": "09",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-HALL-ID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-DEVICE-ID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://stg-api.kanae.ne.jp/collet-auth/v1/authentication/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "065b6578-e95a-63fa-98b7-c840e8fd0dea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://stg-api.kanae.ne.jp/collet-auth/v1/authentication/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1501560115276,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"kanaeId\": {\n            \"value\": \"198fd10dd9c3210b4aa0c3341742445f3a9028239e42f6b6a9ef6b9a594ffeb386b96d33ab11f8eb\"\n        }\n}"
+		},
+		{
+			"id": "8b21c879-42eb-205e-0815-b995cc280015",
+			"headers": "X-DEVICE-KIND: 09\nX-HALL-ID: 1\nX-DEVICE-ID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-DEVICE-KIND",
+					"value": "09",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-HALL-ID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-DEVICE-ID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://stg-api.kanae.ne.jp/collet-auth/v1/sp_user/add/issue_authentication",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "065b6578-e95a-63fa-98b7-c840e8fd0dea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://stg-api.kanae.ne.jp/collet-auth/v1/sp_user/add/issue_authentication",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1501560104410,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n}"
+		},
+		{
+			"id": "e01ae4b9-3d4a-bb31-ba44-9c1d508c4e80",
+			"headers": "X-DEVICE-KIND: 09\nX-HALL-ID: 1\nX-DEVICE-ID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-DEVICE-KIND",
+					"value": "09",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-HALL-ID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-DEVICE-ID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://stg-api.kanae.ne.jp/collet-service-02/rest/V4/member/delivery_addresses_get?token=\"7ff68bb0c0915c7c2894148448f1e3feef7f04c69c5c324198dec09e77e71dd41072a679d48d2fb6\"",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "\"7ff68bb0c0915c7c2894148448f1e3feef7f04c69c5c324198dec09e77e71dd41072a679d48d2fb6\"",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "065b6578-e95a-63fa-98b7-c840e8fd0dea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://stg-api.kanae.ne.jp/collet-service-02/rest/V4/member/delivery_addresses_get?token=\"7ff68bb0c0915c7c2894148448f1e3feef7f04c69c5c324198dec09e77e71dd41072a679d48d2fb6\"",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1501560121946,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\n}"
+		}
+	]
+}
